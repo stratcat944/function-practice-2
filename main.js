@@ -37,9 +37,10 @@
 
 // keyValue('city', 'Denver') should return Object {city: "Denver"}
 
-function keyValue(key, value) {
-    var keyvalpair = {}
-    keyvalpair[key] = value;
-    return keyvalpair;
-}
-console.log(keyValue('city','Denver'));
+// function keyValue(key, value) {
+//     var keyvalpair = {}
+//     keyvalpair[key] = value;
+//     return keyvalpair;
+// }
+// console.log(keyValue('city','Denver'));
+
