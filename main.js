@@ -1,4 +1,5 @@
 // 1. getName
+// *********************************************
 
 
 // var getName = function(person) {
@@ -13,6 +14,8 @@
 
 
 // 2. totalLetters
+// *********************************************
+
 
 // var stringWords = ['This', 'shit', 'is', 'really', 'starting', 'to', 'piss', 'me', 'off']
 
@@ -25,5 +28,18 @@
 // console.log(totalLetters);
 
 // 3. keyValue
+// *********************************************
 
 
+// Write a function called 'keyValue' which takes two arguments and returns a 
+// new object with a key of the first argument and the value of the second 
+// argument.
+
+// keyValue('city', 'Denver') should return Object {city: "Denver"}
+
+function keyValue(key, value) {
+    var keyvalpair = {}
+    keyvalpair[key] = value;
+    return keyvalpair;
+}
+console.log(keyValue('city','Denver'));
