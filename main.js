@@ -44,3 +44,17 @@
 // }
 // console.log(keyValue('city','Denver'));
 
+
+// 4. Negative Index
+// *********************************************
+
+// Write a function called 'negativeIndex' which takes an array and a negative number, and returns the value from the array at the given negative index, as if the array was circular, i.e. arr.length+num.
+// negativeIndex(['a', 'b', 'c', 'd', 'e'], -2) should return 'd'
+// negativeIndex(['jerry', 'sarah', 'sally'], -1) should return 'sally'
+
+// var pets = ['Peanut', 'Ernie', 'Andy', 'Hutch', 'Gettie', 'Alex', 'Nelly']
+
+// var negativeIndex = function(arr, negNum) {
+// 	return arr[arr.length + negNum]
+// }
+// console.log(negativeIndex(pets, -4));
